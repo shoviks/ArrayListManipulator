@@ -4,13 +4,10 @@ import java.util.ArrayList;
 
 public class ArrayListManipulator {
 	
-	
-	
 	public static void main(String[] args){
 		
 		//ArrayListManipulator object declared
 		ArrayListManipulator manip = new ArrayListManipulator();
-		
 		
 		/*
 		 * Example for #1
@@ -37,7 +34,6 @@ public class ArrayListManipulator {
 		//Prints an int indicating how many embedded lists are in the ArrayList embedded
 		System.out.println(manip.number_embed(embedded));
 		
-		
 		/*
 		 * Example for #2
 		 */
@@ -60,7 +56,6 @@ public class ArrayListManipulator {
 		//Set difference calculated
 		manip.my_difference(charList1, charList2);
 		
-		
 		/*
 		 * Example for #3
 		 */
@@ -82,7 +77,6 @@ public class ArrayListManipulator {
 		//Occurrences of each element calculated
 		manip.occurences(occur);
 		
-		
 		/*
 		 * Example for #4
 		 */
@@ -100,7 +94,6 @@ public class ArrayListManipulator {
 		
 		//Prints "T" if palindrome, "F" if not
 		System.out.println(manip.my_palindrome(List));
-		
 		
 		/*
 		 * Example for #5
